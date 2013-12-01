@@ -53,24 +53,6 @@ The following default builds are available:
 * `oridomi`                (default minified package)
 * `oridomi-development`    (full development package)
 
-
-### Rails 3.0
-
-This gem adds an installation generator to Rails 3, `oridomi:install`. Running the generator will install the JavaScript file (default minified package) necessary to use Sugar.
-
-* Invoke the generator:
-
-```
-$ rails generate oridomi:install
-```
-
-* Add the following to your layout or view files:
-
-```erb
-<%= javascript_include_tag "oridomi" %>
-```
-
-
 ## Contributing
 
 1. [Fork it](https://github.com/supernullset/oridomi-rails/fork_select)
