@@ -69,6 +69,8 @@ The following default builds are available:
 
 * Freely distributable and licensed under the [MIT license](http://phlipper.mit-license.org/2011-2012/license.html).
 
+## Documentation
+Docs are available on [Omniref](http://omniref.com/docs/ruby/gems/oridomi-rails-1.0.0)
 
 **Oridomi**
 
