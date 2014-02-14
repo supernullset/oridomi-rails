@@ -3,7 +3,6 @@ script:
   - sudo start xvfb
   - bundle install
   - bundle exec rake test
-  - echo 'welp!'
 notify:
   email:
     recipients:
