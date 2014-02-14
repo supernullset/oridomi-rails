@@ -1,0 +1,8 @@
+image: ruby2.0.0
+script:
+  - ruby test/integration/oridomi_rails_integration_test.rb
+  - rm test/dummy/log/test.log
+notify:
+  email:
+    recipients:
+      - sean.j.williamson@gmail.com
