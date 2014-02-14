@@ -1,8 +1,8 @@
 image: ruby2.0.0
 script:
   - sudo start xvfb
-  - ruby test/integration/oridomi_rails_integration_test.rb
-  - rm test/dummy/log/test.log
+  - bundle install
+  - bundle exec rake test
 notify:
   email:
     recipients:
