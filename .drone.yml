@@ -1,7 +1,7 @@
 image: ruby2.0.0
 script:
-  - export DISPLAY=:0.0
-  - xvfb-run ruby test/integration/oridomi_rails_integration_test.rb
+  - sudo start xvfb
+  - ruby test/integration/oridomi_rails_integration_test.rb
   - rm test/dummy/log/test.log
 notify:
   email:
