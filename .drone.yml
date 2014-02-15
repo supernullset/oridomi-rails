@@ -1,0 +1,9 @@
+image: ruby2.0.0
+script:
+  - sudo start xvfb
+  - bundle install
+  - bundle exec rake test
+notify:
+  email:
+    recipients:
+      - sean.j.williamson@gmail.com
