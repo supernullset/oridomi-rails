@@ -8,6 +8,6 @@ describe "static assets integration" do
 
   it "provides oridomi-minified on the asset pipeline" do
     visit '/assets/oridomi.js'
-    page.text.must_include "VERSION = '1.0.2'"
+    page.text.must_include 'VERSION="1.0.2"'
   end
 end
